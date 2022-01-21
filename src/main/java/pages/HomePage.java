@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
-
 	WebDriver driver;
 
 	private String url = "https://github.com/";
@@ -22,5 +21,4 @@ public class HomePage {
 	public String getUrl() {
 		return url;
 	}
-
 }

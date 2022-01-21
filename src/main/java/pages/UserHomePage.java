@@ -10,14 +10,12 @@ public class UserHomePage {
 
 	@FindBy(css = "summary[aria-label$='View profile and more']")
 	WebElement btnProfile;
-	
-	
-	@FindBy(xpath =  "//a[text()='Signed in as ']")
+		
+	@FindBy(xpath = "//a[text()='Signed in as ']")
 	WebElement divCurrentUser;
 
 	public UserHomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-
 }
