@@ -21,4 +21,8 @@ public class HomePage {
 	public String getUrl() {
 		return url;
 	}
+ 
+	public void navigateToLoginPage() {
+		btnLogin.click();		
+	}
 }
